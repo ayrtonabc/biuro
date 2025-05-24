@@ -15,25 +15,81 @@
     <meta name="twitter:title" content="DETEKTYWISTYCZNE Biuro Śledcze | Profesjonalna Agencja Detektywistyczna" />
     <meta name="twitter:description" content="DETEKTYWISTYCZNE Biuro Śledcze - Profesjonalna agencja detektywistyczna specjalizująca się w obserwacji, śledztwach korporacyjnych i sprawach prywatnych. Gwarancja dyskrecji." />
     <meta name="twitter:image" content="https://www.detektywistyczne.pl/img/twitter-image.jpg" />
+    
+    <!-- Performance optimizations -->
+    <meta name="theme-color" content="#1a1a1a" />
+    <meta name="color-scheme" content="dark" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/assets/logo-WWwC7XSr.webp" as="image" type="image/webp" />
+    <link rel="preload" href="/assets/hero2-Bw8MsYJO.webp" as="image" type="image/webp" />
+    <link rel="preload" href="data:application/octet-stream;base64,aW1wb3J0IHsgU3RyaWN0TW9kZSB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgY3JlYXRlUm9vdCB9IGZyb20gJ3JlYWN0LWRvbS9jbGllbnQnOwppbXBvcnQgQXBwIGZyb20gJy4vQXBwLnRzeCc7CmltcG9ydCAnLi9pbmRleC5jc3MnOwoKY3JlYXRlUm9vdChkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgncm9vdCcpISkucmVuZGVyKAogIDxTdHJpY3RNb2RlPgogICAgPEFwcCAvPgogIDwvU3RyaWN0TW9kZT4KKTsK" as="script" />
+    
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    
+    <!-- Icons and manifest -->
     <link rel="icon" type="image/svg+xml" href="/detective-icon.svg" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
+    
     <title>DETEKTYWISTYCZNE Biuro Śledcze | Profesjonalna Agencja Detektywistyczna</title>
-    <!-- Google Fonts -->
+    
+    <!-- Optimized Google Fonts with font-display: swap -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@400;700;900&family=Space+Mono&display=swap" rel="stylesheet">
-    <!-- CSS -->
-    <link rel="stylesheet" href="/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@400;700;900&family=Space+Mono&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@400;700;900&family=Space+Mono&display=swap" rel="stylesheet"></noscript>
+    
+    <!-- Critical CSS inline -->
+    <style>
+      /* Critical CSS - Above the fold styles */
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body { 
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background-color: #0a0a0a;
+        color: #ffffff;
+        line-height: 1.6;
+        overflow-x: hidden;
+      }
+      .min-h-screen { min-height: 100vh; }
+      .flex { display: flex; }
+      .flex-col { flex-direction: column; }
+      .items-center { align-items: center; }
+      .justify-center { justify-content: center; }
+      .relative { position: relative; }
+      .absolute { position: absolute; }
+      .fixed { position: fixed; }
+      .z-50 { z-index: 50; }
+      .bg-dark-900 { background-color: #0a0a0a; }
+      .text-white { color: #ffffff; }
+      .text-accent-500 { color: #d4af37; }
+      .animate-spin { animation: spin 1s linear infinite; }
+      @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .rounded-full { border-radius: 9999px; }
+      .h-12 { height: 3rem; }
+      .w-12 { width: 3rem; }
+      .border-b-2 { border-bottom-width: 2px; }
+      .border-accent-500 { border-color: #d4af37; }
+      .noise-bg {
+        background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.15) 1px, transparent 0);
+        background-size: 20px 20px;
+      }
+    </style>
+    
+    <!-- Non-critical CSS -->
+    <link rel="preload" href="/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/styles.css"></noscript>
+    
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico" />
-    <script type="module" crossorigin src="/assets/index-AFOMy3ul.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/vendor-Av42Sy2f.js">
-    <link rel="modulepreload" crossorigin href="/assets/animations-BNdHqjIR.js">
-    <link rel="modulepreload" crossorigin href="/assets/router-DV7KxWVr.js">
-    <link rel="modulepreload" crossorigin href="/assets/utils-DcrOcW_2.js">
-    <link rel="stylesheet" crossorigin href="/assets/index-H6Agixf2.css">
-  </head>
+    <script type="module" crossorigin src="/assets/index-D8IGLSIf.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DxN-diYD.css">
+  <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
   <body>
     <div id="root"></div>
     <!-- Google Analytics -->
